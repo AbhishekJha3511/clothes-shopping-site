@@ -1,0 +1,50 @@
+#page-header.about-header {
+  background-image: url("/assets/images/banner/banner1.jpg");
+}
+#about-head{
+    display: flex;
+    align-items: center;
+}
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+#about-app{
+    text-align: center;
+}
+#about-app  h1 a{
+    text-decoration: none;
+    color: #1660ff;
+}
+#about-app .appvdo{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#about-app .appvdo video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* Meadia queries for mobile */
+@media screen and (max-width: 768px){
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div{
+        padding-left: 0;
+    }
+    #about-app .appvdo {
+        width: 100%;
+    }
+   
+}
